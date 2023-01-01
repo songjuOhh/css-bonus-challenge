@@ -23,6 +23,8 @@ body{
 .container-bar{
     font-family: Poppins, sans-serif;
     font-weight: normal;
+    font-size: 20px;
+    padding: 5px;
     background: #de411a;
     width: 100%;
 }
@@ -115,7 +117,7 @@ body{
 
 .designer{
     width: 310px;
-    background-color: #e7e8e9;
+    background-color: #F1F1F1;
 }
 
 .designer-picture{
@@ -211,7 +213,21 @@ li{
     flex-direction: column;
 
     width: 100%;
+}
 
+.input{
+    margin-bottom: 1em;
+    height: 35px;
+    border-color: #DDDDDD;
+    border-style: solid;
+}
+
+.send-button{
+    background-color: #D25B49;
+    padding: 15px 20px 15px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
 }
 
 
